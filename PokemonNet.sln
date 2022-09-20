@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonNet.Domain", "src\PokemonNet.Domain\PokemonNet.Domain.csproj", "{2AE4127D-2DFA-4BC8-A25D-B0A3545389D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonNet.Logic", "src\PokemonNet.Logic\PokemonNet.Logic.csproj", "{E55FF5C7-D0B9-4B81-93D9-86CF99AF2CF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2AC39584-9C44-43A7-BDFB-23B97034661B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{FFB002F4-8F59-456F-B6CE-F5C8E17D4029}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonNet.Domain.Tests", "tests\PokemonNet.Domain.Tests\PokemonNet.Domain.Tests.csproj", "{28C0BB04-9E7D-4355-A80D-C8C19AF06184}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonNet.Logic.Tests", "tests\PokemonNet.Logic.Tests\PokemonNet.Logic.Tests.csproj", "{9E4A979B-3679-4CCA-942E-DBECB061B591}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AE4127D-2DFA-4BC8-A25D-B0A3545389D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AE4127D-2DFA-4BC8-A25D-B0A3545389D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AE4127D-2DFA-4BC8-A25D-B0A3545389D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AE4127D-2DFA-4BC8-A25D-B0A3545389D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E55FF5C7-D0B9-4B81-93D9-86CF99AF2CF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E55FF5C7-D0B9-4B81-93D9-86CF99AF2CF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E55FF5C7-D0B9-4B81-93D9-86CF99AF2CF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E55FF5C7-D0B9-4B81-93D9-86CF99AF2CF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28C0BB04-9E7D-4355-A80D-C8C19AF06184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28C0BB04-9E7D-4355-A80D-C8C19AF06184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28C0BB04-9E7D-4355-A80D-C8C19AF06184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28C0BB04-9E7D-4355-A80D-C8C19AF06184}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E4A979B-3679-4CCA-942E-DBECB061B591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E4A979B-3679-4CCA-942E-DBECB061B591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E4A979B-3679-4CCA-942E-DBECB061B591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E4A979B-3679-4CCA-942E-DBECB061B591}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2AE4127D-2DFA-4BC8-A25D-B0A3545389D2} = {2AC39584-9C44-43A7-BDFB-23B97034661B}
+		{E55FF5C7-D0B9-4B81-93D9-86CF99AF2CF2} = {2AC39584-9C44-43A7-BDFB-23B97034661B}
+		{28C0BB04-9E7D-4355-A80D-C8C19AF06184} = {FFB002F4-8F59-456F-B6CE-F5C8E17D4029}
+		{9E4A979B-3679-4CCA-942E-DBECB061B591} = {FFB002F4-8F59-456F-B6CE-F5C8E17D4029}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {552A865D-62B0-415A-9F28-F88FBF094227}
+	EndGlobalSection
+EndGlobal
